@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languagelator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Merienda:wght@300..900&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Languagelator</h1>
+    <div class="container">
+        <div class="text">
+            <textarea name="" placeholder="Enter your text..." id="fromText" spellcheck="false"></textarea>
+            <textarea name="" id="toText" placeholder="Translated text..." spellcheck="false"></textarea>
+        </div>
+        <div class="select-area">
+            <div class="select1">
+                <img src="speak.svg" class="speaker" id="from" alt="">
+                <img src="copy.svg" class="copy" id="from" alt="">
+                <p>From:</p>
+                <select name="" id="fselect">
+
+                </select>
+            </div>
+            <div class="select2">
+                <img src="speak.svg" class="speaker" id="to" alt="">
+                <img src="copy.svg" class="copy" id="to" alt="">
+                <p>To:</p> 
+                <select name="" id="sselect">
+
+                </select>
+            </div>
+        </div>
+        <button id="translate"> Translate</button>
+    </div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
